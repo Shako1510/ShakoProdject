@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShakoProdject/static/css/main.7acaea2f.css",
+    "main.js": "/ShakoProdject/static/js/main.07d3183d.js",
+    "index.html": "/ShakoProdject/index.html",
+    "main.7acaea2f.css.map": "/ShakoProdject/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/ShakoProdject/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
