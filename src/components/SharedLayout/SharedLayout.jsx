@@ -1,25 +1,22 @@
-import { Outlet } from 'react-router-dom'
-import { Container, Header, Logo, Link } from './SharedLayoutStyled'
+import { Outlet } from "react-router-dom";
+import { Container, Header, Link } from "./SharedLayout.styled";
+import Home from "components/Home/Home";
 
 export const SharedLayout = () => {
-
-
     return (
         <Container>
             <Header>
-                <Logo>
-                    SHAKO
-                </Logo>
                 <nav>
-                    <Link to='./' end> About</Link>
-                    <Link to='./projects'> Projects</Link>
-                    <Link to='./what'> What we do</Link>
-                    <Link to='./career'>Career</Link>
-                    <Link to='./contacts'>Contacts</Link>
-
+                    <Link to="/" end><Home></Home></Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to='/what'>What we do</Link>
+                    <Link to='/career'>Career</Link>
+                    <Link to='/news'>News</Link>
+                    <Link to='/contacts'>Contacts</Link>
                 </nav>
             </Header>
             <Outlet />
         </Container>
-    )
-}
+    );
+};

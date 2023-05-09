@@ -1,13 +1,14 @@
-// import { DivContainer, TitleBox } from "./HomeStyled";
+import { DivContainer, TitleBox } from "./HomeStyled";
 
-// const Home = () => {
-//     return (
-//         <DivContainer>
-//             <TitleBox>SHAKO</TitleBox>
+const Home = () => {
+    return (
+        <DivContainer>
 
-//         </DivContainer>
+            <TitleBox>SHAKO</TitleBox>
 
-//     )
-// }
+        </DivContainer>
 
-// export default Home;
+    )
+}
+
+export default Home;

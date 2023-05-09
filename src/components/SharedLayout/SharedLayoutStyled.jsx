@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
     `;
@@ -24,11 +24,11 @@ export const Header = styled.header`
 
 `;
 
-export const Logo = styled.span`
-  font-weight: 700;
-  margin: 0;
-  color: white;
-`;
+// export const Logo = styled.span`
+//   font-weight: 700;
+//   margin: 0;
+//   color: white;
+// `;
 
 export const Link = styled(NavLink)`
   padding: 8px 16px;

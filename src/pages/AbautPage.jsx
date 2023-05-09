@@ -1,8 +1,11 @@
 import React from "react";
 
 
-export const About = () => {
+export default function AboutPage() {
     return (
+
         <p>About</p>
+
     )
 };
+

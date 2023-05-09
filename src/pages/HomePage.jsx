@@ -1,8 +1,18 @@
-import React from "react";
-// import Home from 'components/Home/Home';
+import Home from "components/Home/Home"
+import { SharedLayout } from "components/SharedLayout/SharedLayout"
+
+
 
 export default function HomePage() {
+
     return (
-        <p>Home</p>
+        <>
+            <Home>
+
+
+            </Home>
+            <SharedLayout></SharedLayout>
+        </>
+
     )
 };
