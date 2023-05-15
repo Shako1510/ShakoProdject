@@ -1,5 +1,5 @@
 import Home from "components/Home/Home"
-import { SharedLayout } from "components/SharedLayout/SharedLayout"
+// import { SharedLayout } from "../components/SharedLayout/SharedLayout"
 
 
 
@@ -9,9 +9,9 @@ export default function HomePage() {
         <>
             <Home>
 
-
+                {/* <SharedLayout /> */}
             </Home>
-            <SharedLayout></SharedLayout>
+
         </>
 
     )
